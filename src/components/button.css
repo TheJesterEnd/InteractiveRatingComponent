@@ -1,0 +1,6 @@
+.button {
+  width: 42px;
+  height: 42px;
+  fill: var(--Dark-Blue, #262e38);
+  border-radius: 50%;
+}
