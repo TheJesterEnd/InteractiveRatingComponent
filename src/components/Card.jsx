@@ -16,7 +16,9 @@ function Card(props) {
           <Button number={num} setScore={props.setScore}></Button>
         ))}
       </div>
-      <button onClick={() => props.onClickFunction(true)}>SUBMIT</button>
+      <button className="submit" onClick={() => props.onClickFunction(true)}>
+        SUBMIT
+      </button>
     </main>
   );
 }

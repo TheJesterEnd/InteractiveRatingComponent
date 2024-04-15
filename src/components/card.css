@@ -30,10 +30,15 @@ main {
   gap: 17px;
 }
 
-button {
+.submit {
   margin-top: 24px;
   width: 279px;
   height: 45px;
   border-radius: 22.5px;
   background: var(--Orange, #fc7614);
+  color: var(--Pure-White, #fff);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.867px;
+  border: none;
 }
