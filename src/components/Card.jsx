@@ -16,7 +16,14 @@ function Card(props) {
           <Button number={num} setScore={props.setScore}></Button>
         ))}
       </div>
-      <button className="submit" onClick={() => props.onClickFunction(true)}>
+      <button
+        className="submit"
+        onClick={() =>
+          props.score != 0
+            ? props.onClickFunction(true)
+            : props.onClickFunction(false)
+        }
+      >
         SUBMIT
       </button>
     </main>

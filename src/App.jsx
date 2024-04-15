@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
+import Thank from "./components/Thank";
 function App() {
   const [click, setClick] = useState(false);
   const [score, setScore] = useState(0);
@@ -8,9 +9,13 @@ function App() {
   return (
     <>
       {!click ? (
-        <Card onClickFunction={setClick} setScore={setScore}></Card>
+        <Card
+          onClickFunction={setClick}
+          setScore={setScore}
+          score={score}
+        ></Card>
       ) : (
-        <h1>no</h1>
+        <Thank score={score}></Thank>
       )}
     </>
   );
