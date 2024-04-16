@@ -5,7 +5,7 @@ function Card(props) {
   const numbers = [1, 2, 3, 4, 5];
   return (
     <main>
-      <img src={star} alt="icon" />
+      <img id="star" src={star} alt="icon" />
       <h2 className="title">How did we do?</h2>
       <p className="para">
         Please let us know how we did with your support request. All feedback is
@@ -18,11 +18,7 @@ function Card(props) {
       </div>
       <button
         className="submit"
-        onClick={() =>
-          props.score != 0
-            ? props.onClickFunction(true)
-            : props.onClickFunction(false)
-        }
+        onClick={() => props.score != 0 && props.onClickFunction(true)}
       >
         SUBMIT
       </button>

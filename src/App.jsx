@@ -5,7 +5,6 @@ import Thank from "./components/Thank";
 function App() {
   const [click, setClick] = useState(false);
   const [score, setScore] = useState(0);
-  console.log(score);
   return (
     <>
       {!click ? (

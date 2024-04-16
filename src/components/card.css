@@ -11,7 +11,6 @@ main {
 .title {
   margin-top: 16px;
   color: var(--Pure-White, #fff);
-  font-family: Overpass;
   font-size: 24px;
   font-weight: 700;
 }
@@ -41,4 +40,29 @@ main {
   font-weight: 700;
   letter-spacing: 1.867px;
   border: none;
+}
+
+@media only screen and (min-width: 940px) {
+  main {
+    width: 412px;
+    height: 416px;
+    padding: 32px 32px 39px;
+  }
+  #star {
+    width: 48px;
+    height: 48px;
+  }
+  .title {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  .para {
+    margin-top: 7px;
+    width: 340px;
+    font-size: 15px;
+    line-height: 24px; /* 160% */
+  }
+  .buttons {
+    gap: 21px;
+  }
 }
