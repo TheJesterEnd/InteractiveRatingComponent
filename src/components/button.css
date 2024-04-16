@@ -11,3 +11,18 @@
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.175px;
 }
+@media only screen and (min-width: 940px) {
+  .button {
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+  }
+
+  .button:hover {
+    cursor: pointer;
+    background-color: var(--Orange, #fc7614);
+    color: var(--Pure-White, #fff);
+    transition: 0.5s;
+  }
+}

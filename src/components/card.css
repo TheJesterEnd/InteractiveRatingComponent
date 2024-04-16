@@ -65,4 +65,15 @@ main {
   .buttons {
     gap: 21px;
   }
+  .submit {
+    width: 341px;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .submit:hover {
+    cursor: pointer;
+    background: var(--Pure-White, #fff);
+    color: var(--Orange, #fc7614);
+    transition: 0.5s;
+  }
 }
