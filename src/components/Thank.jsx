@@ -8,7 +8,7 @@ function Thank(props) {
         <p>You selected {props.score} out of 5</p>
       </div>
       <h3 className="title thank">Thank you!</h3>
-      <p className="para thank">
+      <p className="para thank" id="thank-para">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>

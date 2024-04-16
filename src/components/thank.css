@@ -31,3 +31,24 @@
 .thank {
   text-align: center;
 }
+
+@media only screen and (min-width: 940px) {
+  #container {
+    width: 412px;
+    height: 416px;
+  }
+  .message {
+    margin-top: 32px;
+    width: 193px;
+  }
+  .message p {
+    font-size: 15px;
+    line-height: 24px; /* 160% */
+  }
+  .thank {
+    margin-top: 32px;
+  }
+  #thank-para {
+    margin-top: 7px;
+  }
+}

@@ -13,7 +13,11 @@ function Card(props) {
       </p>
       <div className="buttons">
         {numbers.map((num) => (
-          <Button number={num} setScore={props.setScore}></Button>
+          <Button
+            number={num}
+            setScore={props.setScore}
+            score={props.score}
+          ></Button>
         ))}
       </div>
       <button
